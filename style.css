@@ -1,0 +1,38 @@
+.wrapperStyles {
+    max-width: 1024px;
+    margin: 20px auto;
+}
+
+.h1Styles {
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.handStyles {
+    font-size: 1.8em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}   
+
+button:hover {
+    background-color: tomato;
+}
+
