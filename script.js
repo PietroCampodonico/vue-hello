@@ -18,7 +18,6 @@ var app = new Vue(
               this.btn = "click to Reset"
 
             }  else {
-                this.displayContent !== "none",
                     this.displayContent = "none"
                     this.btn = "Click to be Greeted"
             }
